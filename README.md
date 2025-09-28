@@ -13,16 +13,45 @@ A powerful, flexible React component library for building complex filter interfa
 - � **Validation** - Built-in validation for filter tree consistency
 - 📦 **Zero Dependencies** - Lightweight with minimal external dependencies
 
-## Quick Start
+## Development
+
+This project uses a monorepo structure powered by:
+
+- 🏎 [Turborepo](https://turborepo.com) — High-performance build system
+- 🚀 [React](https://reactjs.org/) — UI framework
+- 🛠 [Tsup](https://github.com/egoist/tsup) — TypeScript bundler
+- 📖 [Storybook](https://storybook.js.org/) — Component development environment
+
+### Setup
+
+````bash
+# Clone the repository
+git clone https://github.com/CherkovP/filter-builder
+cd filter-builder
+
+# Install dependencies
+pnpm install
+
+
+### Running Storybook Locally
+
+To start the Storybook development server and explore the FilterBuilder components:
 
 ```bash
-# Install the package
-npm install @acme/ui
+# From the root folder, start Storybook
+pnpm dev
 
-# Import and use
-import { FilterBuilder } from "@acme/ui/filter-builder";
-import "@acme/ui/styles"; // Import styles
-```
+# This will start Storybook and automatically open your browser to:
+# http://localhost:6006
+````
+
+The Storybook interface provides:
+
+- 📖 Interactive component documentation
+- 🎮 Live component playground with controls
+- 🎨 Visual examples and use cases
+
+You can explore different FilterBuilder configurations, test various field types and operators, and see real-time examples of how the component works with different data schemas.
 
 ## Installation & Usage
 
